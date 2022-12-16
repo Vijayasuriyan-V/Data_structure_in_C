@@ -1,6 +1,6 @@
 //REAL TIME APPLICATIONS- RAILWAY RESERVATION
 #include<stdio.h>
-
+#include<stdlib.h>
 int first=5,second=5,i=0,c;
 struct node
 {
@@ -133,6 +133,7 @@ int main()
     break;
     case 5:
     printf("\n Thank you visit again!");
+    exit(0);
     break;
     default:
     break;
